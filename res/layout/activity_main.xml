@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/orange" >
+
+        <Button
+            android:id="@+id/fotografar"
+            android:layout_width="150dp"
+            android:layout_height="242dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="5dp"
+            android:layout_toRightOf="@+id/cadastroAI"
+            android:background="#000000"
+            android:text="Fotografar"
+            android:textColor="#FF9900"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/cadastroAI"
+            android:layout_width="150dp"
+            android:layout_height="242dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#000000"
+            android:text="Cadastrar AI"
+            android:textColor="#FF9900"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/via2"
+            android:layout_width="150dp"
+            android:layout_height="242dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/cadastroAI"
+            android:layout_margin="0dp"
+            android:background="#000000"
+            android:text="2 via"
+            android:textColor="#FF9900"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/impressora"
+            android:layout_width="150dp"
+            android:layout_height="242dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/fotografar"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/via2"
+            android:background="#000000"
+            android:text="Impressora"
+            android:textColor="#FF9900"
+            android:textSize="30sp" />
+
+</RelativeLayout>
